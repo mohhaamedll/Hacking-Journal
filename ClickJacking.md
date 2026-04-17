@@ -4,7 +4,7 @@
 
 -Well imagine you have your bank account connected to your browser and while browsing on the internet you enter a page saying 'Click Here And You Win 10,000$' the victim clicks not realizing that this is an attacker's decoy page and beneath that button they actually clicked 'Transfer £1000 to the attacker's account' on the real page underneath.
 
-*NOTE: It's a little similar to CSRF but in Clickjacking the victim clicks on buttons that behind it lies another page that the user cannot see, Unlike CSRF where the request is sent automatically without any user interaction, Clickjacking requires the victim to physically click While the attacker just controls what they're unknowingly clicking on.
+*NOTE: It's a little similar to CSRF but in Clickjacking the victim clicks on buttons that behind it lies another page that the user cannot see, Unlike CSRF where the request is sent automatically without any user interaction, Clickjacking requires the victim to physically click While the attacker just controls what they're unknowingly clicking on.*
 
 --------------------------------------------------------------------------
 
