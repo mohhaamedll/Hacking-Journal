@@ -1,6 +1,6 @@
 # What CORS:
 
-First CORS stands for Cross Origin Resource Sharing and it's implemented by website's server so that it makes browsers allow some cross origin website to bypass the strict [[SOP]] implemented.** 
+First CORS stands for Cross Origin Resource Sharing and it's implemented by website's server so that it makes browsers allow some cross origin website to bypass the strict SOP implemented.
 
 -------------------------------------------------------
 # How CORS  works:
