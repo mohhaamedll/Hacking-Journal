@@ -1,12 +1,12 @@
 # What SOP :
 
-Will SOP is short for Same Origin Policy's , they are implemented by browsers like (Fire Fox , chrome , etc..) for preventing websites from stealing other websites data Via fetching(Read).**
+Will SOP is short for Same Origin Policy's , they are implemented by browsers like (Fire Fox , chrome , etc..) for preventing websites from stealing other websites data Via fetching(Read).
 
 -------------------------------------------------------
 # How SOP works :
 
 Look every website has an origin that the browsers read and if the website-1 requesting data from website-2 and they both same origin then it allows the request to reach the website-2, but if web-1 origin differ from web-2 origin the browser sent the request normally and the web-2 response but the browser blocks the response from web1** 
-so it blocks the requesting page from reading the response.**
+so it blocks the requesting page from reading the response.
 
 *NOTE: Same Origin Policy restricts reading cross-origin responses, But it's not related to execution request-responses, Due to that its not protecting against attacks like (XSS,CSRF) but more of data reading requests.*
 
