@@ -20,7 +20,7 @@
 And if we want to query something like transferring from the bank page this how it can be done: 
     `<iframe src="https://bankaccount.com/transfer?transaction=1000&transAccount=Hacker.acc"></iframe>`
 
-*NOTE: This example only works if the target action accepts GET parameters, Most real applications use POST requests for sensitive actions, which is why clickjacking is often combined with other techniques.
+*NOTE: This example only works if the target action accepts GET parameters, Most real applications use POST requests for sensitive actions, which is why clickjacking is often combined with other techniques.*
 
 --------------------------------------------------------------------------
 # Protections:
