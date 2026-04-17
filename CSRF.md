@@ -20,8 +20,8 @@ account and applying the change the attacker wanted.
 
 It seem a little complicated so here is a simple graph to simplify things a little:
 
-[victim] --Enters(1)--> Attacker Web page --Form submits(2)--> Go to Vulnerable website with browser attaching the victims cookie with the request
-                           --changeing victims info(3)--> CSRF Attack Complete
+`[victim] --Enters(1)--> Attacker Web page --Form submits(2)--> Go to Vulnerable website with browser attaching the victims cookie with the request
+                           --changeing victims info(3)--> CSRF Attack Complete`
 
 --------------------------------------------------------------------------
 
@@ -31,9 +31,9 @@ It seem a little complicated so here is a simple graph to simplify things a litt
 so if the attackers website doesn't sent the CSRF token of the victim with the submit form the request will not be permitted,
 The CSRF-Token can't be forged because of SOP preventing the attacker from reading responses to extract victims token.   
 
-[2] [[Same-Site]] Policy ->it tells the browser _don't send this cookie on cross-site requests at all_.
+[2] Same-Site Policy ->it tells the browser _don't send this cookie on cross-site requests at all_.
 So the forged request reaches the server but arrives with no session cookie,making it unauthenticated and harmless.
 
-[3] [[SOP]] (Same Origin Policy) ->Browsers Preventing attackers from reading responses to extract sensitive values like CSRF tokens,
+[3] SOP (Same Origin Policy) ->Browsers Preventing attackers from reading responses to extract sensitive values like CSRF tokens,
 which protects against CSRF indirectly. *(Talked about more in SOP Essay)*.
 
