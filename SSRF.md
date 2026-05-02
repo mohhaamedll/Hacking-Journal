@@ -15,10 +15,10 @@ In a blind SSRF lab, sending a Burp Collaborator URL as the stockApi parameter p
 ---------------------------------------------------------------------
 # SSRF Targets:
 
-Localhost/internal services
-Cloud metadata endpoint (`169.254.169.254`)
-Internal APIs and databases
-Alternative protocols (`file://`, `dict://`, `gopher://`)
+- Localhost/internal services
+- Cloud metadata endpoint (`169.254.169.254`)
+- Internal APIs and databases
+- Alternative protocols (`file://`, `dict://`, `gopher://`)
 
 ---------------------------------------------------------------------
 # How SSRF Works:
